@@ -54,6 +54,6 @@ while(sPlaying == "y"):
 
 print("Your final score is: " + str(iScore))
 sUserName = input("Name: ")
-open("scores.txt", "a").write(sUserName + ": " + str(iScore))
+open("scores.txt", "a").write("\n" + sUserName + ": " + str(iScore))
 
 
